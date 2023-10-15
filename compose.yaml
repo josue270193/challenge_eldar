@@ -1,0 +1,11 @@
+version: '3.1'
+
+services:
+  mongodb:
+    image: 'mongo:7.0.2'
+    environment:
+      - 'MONGO_INITDB_DATABASE=challenge_eldar'
+      - 'MONGO_INITDB_ROOT_PASSWORD=eldar'
+      - 'MONGO_INITDB_ROOT_USERNAME=eldar'
+    ports:
+      - '27017:27017'

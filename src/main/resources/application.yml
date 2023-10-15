@@ -1,0 +1,15 @@
+logging:
+  level:
+    root: INFO
+    web: DEBUG
+    org:
+      springframework:
+        data: DEBUG
+
+spring:
+  profiles:
+    active: "prod"
+  data:
+    mongodb:
+      database: challenge_eldar
+
